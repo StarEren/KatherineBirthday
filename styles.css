@@ -19,9 +19,8 @@ h1, h2, span {
 
   h1, h2, span {
     display: block;
-    margin-top: 20px; /* Adjust margin as needed */
-  }xsx
-  
+  }
+
   body {
     background: linear-gradient(to right, #e2b8f7, #d4bafa, #c7bcfb, #b9befb, #acbff9);
     cursor: crosshair;
