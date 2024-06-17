@@ -12,15 +12,6 @@ h1, h2, span {
   display: none;
 }
 
-@media screen and (min-width: 670px) {
-  .mobile {
-    display: none;
-  }
-
-  h1, h2, span {
-    display: block;
-  }
-
   body {
     background: linear-gradient(to right, #e2b8f7, #d4bafa, #c7bcfb, #b9befb, #acbff9);
     cursor: crosshair;
