@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Katherine's Flowers</title>
     <link rel="stylesheet" href="flowers.css">
+    <style>
+        .message {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2em;
+            color: white;
+            text-align: center;
+            z-index: 1000; /* Ensure it is above other elements */
+        }
+    </style>
 </head>
     <body class="not-loaded">
+        <div class="message">So glad you were born to be a part of our lives Katherine. These virtual flowers are for you.</div>
+        <audio autoplay>
+            <source src="glitter.mp3" type="audio/mpeg">
+            <source src="glitter.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
         <div class="night"></div>
         <div class="flowers">
         <div class="flower flower--1">

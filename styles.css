@@ -985,7 +985,7 @@ h1, h2, span {
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: lavender;
+  background-color: rgb(147, 147, 242);
   border: none;
   color: white;
   padding: 15px 30px;
@@ -998,5 +998,5 @@ h1, h2, span {
 }
 
 .flower-button:hover {
-  background-color: #c0b0e0; /* Light lavender with a hint of purple */
+  background-color: #d7cced; /* Light lavender with a hint of purple */
 }
